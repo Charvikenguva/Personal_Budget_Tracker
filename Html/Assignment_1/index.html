@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Budget Tracker</title>
+</head>
+<body>
+    <center>
+    <h1>Personal Budget Tracker</h1>
+    <a href="#">Add Income/Expense</a><br>
+    <a href="#">View Budget Summary</a><br>
+    <a href="#">Budgeting</a>
+    <h2>Welcome to the Personal Budget Tracker!</h2>
+    <p>This tracker helps you manage your monthly income and expenses.<br>
+        You can add new entries and view a detailed summary of your budget. </p>
+    <h2>Add New Income or Expense</h2>
+    <form>
+        <label for="amount">Amount: </label><input type="number" id="amount" placeholder="Enter the amount"><br><br>
+        <label for="category">Category: </label>
+        <select name="category"  id="category">
+            <option value="food">Food</option>
+            <option value="transportation">Transportation</option>
+            <option value="entertainment">Entertainment/option>
+            <option value="salary">Salary</option>
+            <option value="savings">Savings</option>
+            <option value="utilities">Utilities</option>
+            <option value="housing">Housing</option>
+        </select><br><br>
+    </form>
+        <label for="description">Description: </label><input type="text" id="description" placeholder="Add description"><br><br>
+        <label for="date">Date: </label><input type="date" id="date"><br><br>
+        <button type="submit">Add Entry</button><br><br>
+        <h2>Budget Summary</h2>
+        <table border="2">
+            <caption>Budget Table</caption>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>   
+                    <th>Description</th>   
+                    <th>Status</th>
+                    <th>Action</th>
+                 </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Food</td>
+                    <td>$200</td>
+                    <td>Groceries for the week</td>
+                    <td>completed</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td>Transportation</td>
+                    <td>$100</td>
+                    <td>Monthly bus pass</td>
+                    <td>completed</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr><tr>
+                    <td>Entertainment</td>
+                    <td>$50</td>
+                    <td>Movie tickets</td>
+                    <td>Pending</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr><tr>
+                    <td>Salary</td>
+                    <td>$3000</td>
+                    <td>Monthly salary</td>
+                    <td>completed</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr><tr>
+                    <td>Savings</td>
+                    <td>$500</td>
+                    <td>Emergency fund deposit</td>
+                    <td>Pending</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr><tr>
+                    <td>Utilities</td>
+                    <td>$150</td>
+                    <td>Electricity bill</td>
+                    <td>completed</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr><tr>
+                    <td >Housing</td>
+                    <td>$1200</td>
+                    <td>Monthly rent</td>
+                    <td>completed</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>
+            </tbody>
+        </table><br><br>
+    <div>
+        <h3>What is budgeting? Budgetary Control </h3>
+        <iframe src="https://youtu.be/INnPo0QPXf4" frameborder="0"></iframe>
+    </div>
+    <footer>
+        <p>&copy2025 Personal Budget Tracker - Version 1.0</p>
+        <p><a href="#">Privacy Policy</a>| <a href="#">Terms of use</a></p>
+    </footer>
+    </center>
+</body>
+</html>
