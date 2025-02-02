@@ -1,0 +1,1 @@
+Built a simple personal budget tracker to help users manage their monthly expenses. The tracker will allow users to input their income and expenses, categorize them, and view a summary in a table format.
